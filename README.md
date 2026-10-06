@@ -36,4 +36,24 @@ In this second lecture, I mastered memory optimization using shared static prope
 ### 💻 Code Snippet Overview:
 - Verified unique student profile evaluations (`sana` and `hina`) mapping back to a single shared enterprise property (`IUB`).
 - Successfully tracked global state variables across multi-layered method executions.
+
+---
+
+## 🛡️ Encapsulation may ham nay kya kya seekha
+
+In this stage, I engineered robust security constraints to protect structural states from illegal exterior mutation using modern Pythonic decorators and safe operational boundaries.
+
+### 🧠 What I Learned & Implemented:
+
+1. **Access Modifiers & Name Mangling:** Enforced strict variable access restrictions using double underscores (`__balance`), understanding how Python performs name mangling (`_ClassName__variable`) to secure back-end memory nodes [INDEX].
+2. **Property Windows (`@property`):** Deployed a clean getter wrapper to retrieve private state properties dynamically without the need for manual getter methods or functional brackets [INDEX].
+3. **Data Protection Firewalls (`.setter` & `.deleter`):** 
+   - Programmed parametric validation rules using `@balance.setter` to block illegal payloads (e.g., negative balance assignments) [INDEX].
+   - Implemented `@balance.deleter` to securely purge internal objects from dynamic RAM buffers during structural breakdowns [INDEX].
+4. **Encapsulated Business Operations:** Engineered decoupled transactional nodes (`deposit()` and `withdraw()`) to execute safe balance manipulation cycles directly within class limits without exposing core architecture [INDEX].
+
+### 💻 Code Snippet Overview:
+- Blocked illegal external payloads dynamically using conditional check systems [INDEX].
+- Executed end-to-end safe money flows (Depositing Rs. 7000 and Withdrawing Rs. 8000) with dynamic state tracking on live objects.
+-
 -
